@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>HTML Academy: Кэт энерджи</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/source/css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="page__body">
@@ -26,147 +26,113 @@
             </span>
           </button>
           <ul class="main-nav__list menu-list">
-            <li class="menu-list__item menu-list__item--current"><a>главная</a></li>
+            <li class="menu-list__item menu-list__item--current"><a href="index.html">главная</a></li>
             <li class="menu-list__item"><a href="#">каталог продукции</a></li>
-            <li class="menu-list__item"><a href="form.html">подбор программы</a></li>
+            <li class="menu-list__item"><a>подбор программы</a></li>
           </ul>
         </div>
       </div>
-      <article class="promo">
-        <div class="container">
-          <div class="promo__wrapper">
-            <div class="promo__box">
-              <h2 class="promo__title">
-                Функциональное
-                питание для котов
-              </h2>
-              <p class="promo__subtitle">
-                Занялся собой? Займись котом!
-              </p>
-            </div>
-            <picture>
-              <img class="promo__imag" src="../source/img/mobile/index-can-mobile@1x.png"
-                srcset="../source/img/mobile/index-can-mobile@1x.png 2x" alt="Cat energy PRO курица">
-            </picture>
-            <a href="#" class="promo__button button">подобрать программу</a>
-          </div>
-        </div>
-      </article>
     </div>
-
   </header>
 
-<main class="page-main">
-    <section class="catalog-programs">
-      <h2 class="visually-hidden">Каталог программ</h2>
-      <div class="container programs-list">
-          <div class="programs-list__item programs-item">
-            <h3 class="programs-item__title programs-item__title--icon1">похудение</h3>
-            <p class="programs-item__descr">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям?
-              Пора
-              на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
-            <a href="" class="programs-item__button">каталог slim</a>
-          </div>
-          <div class="programs-list__item programs-item">
-              <h3 class="programs-item__title programs-item__title--icon2">Набор массы</h3>
-              <p class="programs-item__descr">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy
-                Pro
-                поможет вашему коту нарастить необходимые мышцы!</p>
-              <a href="" class="programs-item__button">каталог pro</a>
-            </div>
-          </div>
-
-    </section>
-    <section class="advantages">
+  <main class="page-main">
+    <section class="promo">
       <div class="container">
-        <h2 class="advantages__title">Как это работает</h2>
-        <ul class="advantages__list">
-          <li class="advantages__item">
-            Функциональное питание
-            содержит только полезные
-            питательные вещества.
-          </li>
-          <li class="advantages__item">
-            Выпускается в виде порошка,
-            который нужно лишь залить
-            кипятком и готово.
-          </li>
-          <li class="advantages__item">
-            Замените один-два приема
-            обычной еды на наше
-            функциональное питание.
-          </li>
-          <li class="advantages__item">
-            Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
-          </li>
-        </ul>
-
+        <h1 class="form__title title">
+          Подбор программы
+        </h1>
+        <p class="form__description">
+          Заполните анкету, и мы подберем
+          программу питания для вашего кота
+        </p>
       </div>
     </section>
-    <section class="demo">
-      <div class="container">
-        <div class="demo__wrapper">
-          <div class="demo__box-inner">
-            <h2 class="demo__title">
-              Живой пример
-            </h2>
-            <p class="description">
-              Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат
-              без
-              изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
-            </p>
-            <div class="demo__result demo-result">
-              <div class="demo-result__wrapper">
-                <div class="demo-result__item">
-                  <span class="demo-result__value">5 КГ</span>
-                  <span class="demo-result__desc">снижение веса</span>
+    <form class="form" action="https://echo.htmlacademy.ru">
+      <div class="form__container">
 
-                </div>
-                <div class="demo-result__item">
-                  <span class="demo-result__value">60 ДНЕЙ</span>
-                  <span class="demo-result__desc">затрачено времени</span>
-                </div>
-              </div>
-              <p class="demo-result__expenses">
-                Затраты на питание:
-                <span class="demo-result__summ">15&nbsp;000&nbsp;руб.</span>
-              </p>
+        <div class="form__data">
+          <fieldset class="form__cat-info">
+            <div class="form__inner">
+              <label class="form__label" for="name">имя:*</label>
+              <input class="form__input" type="text" id="name" placeholder="барсик">
             </div>
-          </div>
-          <div class="demo__slider slider">
-            <h3 class="visually-hidden">
-              Демо слайдер до и после
-            </h3>
-            <div class="slider__items">
-              <div class="slider__item">
-                <picture>
-                  <img src="./img/mobile/before-mobile1@1x.png" srcset="./img/mobile/before-mobile1@2x.png 2x"
-                    alt="кот до похудения">
-                </picture>
-              </div>
-              <div class="slider__item">
-                <picture>
-                  <img src="./img/mobile/cat-after-mobile1@1x.png" srcset="./img/mobile/cat-after-mobile1@2x.png 2x"
-                    alt="кот после похудения">
-                </picture>
-              </div>
+            <div class="form__inner">
+              <label class="form__label" for="weight">Вес (кг):*</label>
+              <input class="form__input" type="text" id="weight" placeholder="7">
             </div>
-            <div class="slider__toggle toggle">
-              <span class="toggle__before">
-                Было
-              </span>
-              <div class="toggle__progress-bar">
+            <div class="form__inner">
+              <label class="form__label" for="age">Возраст (лет):</label>
+              <input class="form__input" type="text" id="age" placeholder="7">
+            </div>
+          </fieldset>
+          <fieldset class="form__select-programm">
+            <div class="form__inner">
+              <input type="radio" class="form__radio" id="programm" name="program" value="lose-weight" checked>
+              <label for="programm" class="form__label">похудение</label>
 
-              </div>
-              <span class="toggle__after">
-                Стало
-              </span>
             </div>
-          </div>
+            <div class="form__inner">
+              <input type="radio" class="form__radio" id="programm" name="program" value="gain-weight">
+              <label for="programm" class="form__label">Набор массы</label>
+
+            </div>
+            <div class="form__inner">
+              <input type="radio" class="form__radio" id="programm" name="program" value="dont-know">
+              <label for="programm" class="form__label">Не знаю (Нужен ваш совет)</label>
+
+            </div>
+          </fieldset>
         </div>
+        <div class="form__contact">
+          <h2 class="contact-form__title title">Контактные данные (владельца кота)</h2>
+          <fieldset class="contact-form">
+            <div class="form__inner">
+              <label class="form__label" for="mail">E-mail:*</label>
+              <input class="form__input" type="text" id="mail" placeholder="kuklachev@gmail.com">
+            </div>
+            <div class="form__inner">
+              <label class="form__label" for="tel">Телефон:*</label>
+              <input class="form__input" type="text" id="tel" placeholder="8 (960) 900-60-90">
+            </div>
+          </fieldset>
+        </div>
+        <div class="form__comment">
+          <h2 class="form__title title">Комментарий</h2>
+          <p><textarea rows="10" cols="100%" name="text" placeholder="Расскажите обо всех повадках кота"></textarea></p>
+        </div>
+        <fieldset class="form__option">
+          <h2 class="form__title">
+            Дополнительно
+          </h2>
+          <div class="form__container">
+            <div class="form__inner">
+              <input class="form__input" type="checkbox" id="check-1" name="program" value="no-sugar" checked>
+              <label class="form__label" for="check-1">сахарозаменитель</label>
+            </div>
+            <div class="form__inner">
+              <input class="form__input" type="checkbox" id="check-2" name="program" value="drink">
+              <label class="form__label" for="check-2">питьевая вода</label>
+            </div>
+            <div class="form__inner">
+              <input class="form__input" type="checkbox" id="programm" name="program" value="milk">
+              <label class="form__label" for="programm">молоко</label>
+            </div>
+            <div class="form__inner">
+              <input class="form__input" type="checkbox" id="check-3" name="program" value="vitamins">
+              <label class="form__label" for="check-3">витамины</label>
+            </div>
+
+          </div>
+
+        </fieldset>
+        <div class="form__action">
+          <button class="form__submit" type="submit">отправить заявку</button>
+          <span class="form__required-fields">* — Обязательные поля</span>
+        </div>
+
       </div>
-    </section>
-</main>
+    </form>
+  </main>
 
   <footer class="page-footer footer">
     <section class="contact">
