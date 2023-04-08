@@ -1,6 +1,7 @@
 # Личный проект «{{projectTitle}}»
 
-* Студент: [{{Mishelinus}}]({{https://github.com/Mishelinus}}).
+
+* Студент: [Серов Михаил](https://github.com/Mishelinus).
 * Наставник: `Неизвестно`.
 
 ---
